@@ -40,6 +40,7 @@
                     echo "<td>" .$movie[3][2]. "</td>";
                 echo "</tr>";
             ?>
+            
         </table>
     </body>
 </html>
