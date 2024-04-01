@@ -51,12 +51,12 @@
             }
 
             // Validasi password minimal 8 karakter
-            // if (password.length < 8) {
-            //     $("#password-error").text("Password harus memiliki minimal 8 karakter.");
-            //     valid = false;
-            // } else {
-            //     $("#password-error").text("");
-            // }
+            if (password.length < 8) {
+                $("#password-error").text("Password harus memiliki minimal 8 karakter.");
+                valid = false;
+            } else {
+                $("#password-error").text("");
+            }
 
             if (valid) {
                 $.ajax({
@@ -65,7 +65,7 @@
                     data: {
                         nama: nama,
                         email: email,
-                        // password: password
+                        password: password
                     },
                     success: function(response) {
                         alert(response);
