@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Data Anggota</title>
+    <title>Tambah Data Anggota</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,8 +14,10 @@
             <input type="text" name="nama" id="nama" required>
             <label for="jenis_kelamin">Jenis Kelamin:</label>
             <div class="radio-group">
-                <input type="radio" name="jenis_kelamin" value="L" id="laki" required><label for="laki">Laki-laki</label>
-                <input type="radio" name="jenis_kelamin" value="P" id="perempuan" required><label for="perempuan">Perempuan</label>
+                <input type="radio" name="jenis_kelamin" value="L" id="laki" required><label
+                    for="laki">Laki-laki</label>
+                <input type="radio" name="jenis_kelamin" value="P" id="perempuan" required><label
+                    for="perempuan">Perempuan</label>
             </div>
             <label for="alamat">Alamat:</label>
             <input type="text" name="alamat" id="alamat" required>
