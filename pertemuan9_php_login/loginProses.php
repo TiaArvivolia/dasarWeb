@@ -9,11 +9,11 @@ $cek = mysqli_num_rows($result);
 
 if ($cek) {
     echo "Anda berhasil login. silahkan "; ?>
-<a href="homeAdmin.html">Halaman HOME</a>
+    <a href="homeAdmin.html">Halaman HOME</a>
 <?php
 } else {
     echo "Anda gagal login. silahkan "; ?>
-<a href="loginForm.html">Login kembali</a>
+    <a href="loginForm.html">Login kembali</a>
 <?php
     echo mysqli_error($connect);
 }
