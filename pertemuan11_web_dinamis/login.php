@@ -3,7 +3,7 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-include "fungsi/fungsi_kilat.php";
+include "fungsi/pesan_kilat.php";
 ?>
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="auto">
