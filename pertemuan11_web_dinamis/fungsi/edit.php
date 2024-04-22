@@ -3,7 +3,7 @@ session_start();
 
 if (!empty($_SESSION['username'])) {
     require "../config/koneksi.php";
-    require "../fungsi/fungsi_kilat.php";
+    require "../fungsi/pesan_kilat.php";
     require "../fungsi/anti_injection.php";
 
     if (!empty($_GET['jabatan'])) {
